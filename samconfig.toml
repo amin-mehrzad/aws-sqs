@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sws-sqs"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-13u8f4s8e7iyq"
+s3_prefix = "sws-sqs"
+region = "us-west-1"
+capabilities = "CAPABILITY_IAM"
